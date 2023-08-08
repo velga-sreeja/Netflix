@@ -1,0 +1,115 @@
+<html>
+    <head>
+        <meta name="description" content="Hello this is my first web page!." />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet"/>
+        <title>Netflix Webpage</title>
+        <link rel="icon" href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png" />
+    </head>
+    <body>
+        <!-----navbar part----->
+        <header>
+            <nav class="navbar">
+                <div class="nav_brand">
+                    <img src="https://www.freepnglogos.com/uploads/netflix-logo-0.png" alt="logo" class="brand__logo">
+                </div>
+
+                <div class="navbar_nav_items">
+                    <div class="nav_item">
+                        <div class="dropdown_container">
+                            <i class="fas fa-globe"></i>
+                            <select name="languages" id="languagesSelect" class="drop_down">
+                                <option value = "english" selected style="color:red">English</option>;
+                                <option value = "hindi" style="color:red">Hindi</option>;
+                                <option value = "telugu" style="color:red">Telugu</option>;
+                            </select>
+
+                        </div>
+
+                    </div>
+                    <div class="button-item">
+                        <button class="signin_button">Sign in</button>
+
+                    </div>
+                </div>
+
+            </nav>
+        </header>
+
+        <!----home-section-start-->
+        <main>
+            <div class="home-section">
+                <section class="body-section">
+                    <div class="image-container">
+                        <img src="https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/710d74e0-7158-408e-8d9b-23c219dee5df/IN-en-20210719-popsignuptwoweeks-perspective_alpha_website_small.jpg" alt="BG hero image" class="body-image" />                   
+                    </div>
+                    <div class="bg-overlay"></div>
+                    <div class="hero_card">
+                        <h1 class="hero_title">Unlinited Movies TV,<br/>
+                            Shows and More.</h1>
+                        <p class="hero_subtitle">Watch anywhere and cancel anytime</p>
+                        <p class="hero_description">
+                            Ready to watch? Enter your email to create or restart your membership.
+                        </p>
+                        <div class="email_form_container">
+                            <div class="from_container">
+                                <input type="email" class="email_input" placeholder=" "/>
+                                <label class="email_label">Email Address</label>
+                            </div>
+                            <button class="button">
+                                Get Started <i class ="fal fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!---home-section-ended-->
+            <!---TV-section-started-->
+            <div class="TV-Shows-Section">
+                <div class="feature">
+                    <div class="feature_details">
+                        <h3 class="feature_title">Enjoy on your TV.</h3>
+                        <h5 class="feature_sub_title">
+                            Watch on smartTVs, PlayStation, Xbox, Chromecast, Apple TV,
+                            Blu-ray players and more.
+                        </h5>
+                    </div>
+                    <div class="feature_image_container">
+                        <img src="https://t3.ftcdn.net/jpg/03/26/85/16/360_F_326851671_vBcoTJVlYI7Du1QAjg5Am1gaWc8yhu2S.jpg" class="image">
+                    </div>
+                </div>
+
+            </div>
+            <!--Tv-section-ended-->
+            <div class="feature">
+                <div class="feature_details">
+                    <h3 class="feature_title"> 
+                        Download your shows to watch offline
+                    </h3>
+                    <h5 class="feature_sub_title">
+                        Save your favourites easily and always have something to watch. 
+                    </h5>
+                </div>
+                <div class="feature_image_container">
+                    <img src="https://i.ytimg.com/vi/6N74cKGre9E/maxresdefault.jpg" alt="Feature image" class="feature__image">
+                    <div class="feature _2_poster_container">
+                        <div class="poster_container">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png" alt="poster" class="poster">
+                        </div>
+                        <div class="poster_details">
+                            <h6>Downloading....</h6>
+                        </div>
+                        <div class="download__gif__container">
+                            <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="downloading gif" class="gif" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
